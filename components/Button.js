@@ -45,6 +45,7 @@ export const RectButton = ({ minWidth, fontSize, handlePress, ...props }) => {
           color: COLORS.white,
           textAlign: "center",
         }}
+        onPress={handlePress}
       >
         Place a bid
       </Text>
